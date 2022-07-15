@@ -1,0 +1,41 @@
+@import '/src/CSSVariables/Variables.scss';
+
+.wrapper {
+      outline: 1px black solid;
+      border-radius: 4px;
+      display: flex;
+      flex-wrap: wrap;
+}
+.products {
+      margin: .5rem .5rem;
+      height: 20rem;
+      width: 32%;
+     border-radius: 4px;
+      outline: 1px black solid;
+      
+}
+
+.title {
+      border-bottom: 1px black solid;
+      text-align: center;
+      color: $main;
+}
+.info{
+      height: 60%;
+}
+
+
+.price {
+      position: relative;
+      text-align: center;
+      border-top: 1px solid black;
+    
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+@media screen and (max-width:990px) {
+      .wrapper { flex-wrap: wrap;  }
+      .products{ flex-basis: 100%; }
+      
+    }

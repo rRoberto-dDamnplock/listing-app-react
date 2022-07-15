@@ -1,0 +1,32 @@
+@import '/src/CSSVariables/Variables.scss';
+
+
+h1{
+      margin: 0;
+      color: $third;
+}
+.body {
+margin: 3rem 2rem;
+      height: 20rem;
+      display: flex;
+}
+
+.content {
+      width: 65%;
+  
+}
+
+
+.card {
+      text-align: center;
+      border-radius: 4px;
+      outline: 0.2px solid grey;
+      margin: 0 2rem;
+      width: 25%;
+      height: 95%;
+      border: 1px;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.card:hover{
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 22px 28px;
+}
